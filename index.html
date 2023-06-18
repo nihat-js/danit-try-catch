@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+      }
+      #root {
+        background-color: #f3f7f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      ul {
+        height: 600px;
+        width: 500px;
+        background-color: hsl(190, 55%, 29%);
+        padding: 30px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+        color : #fff
+      }
+      li {
+        border: 2px solid hsl(190, 65%, 49%);
+        padding: 10px 15px;
+        border-radius: 6px;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      li:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+      }
+    </style>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
